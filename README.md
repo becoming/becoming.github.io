@@ -2,6 +2,8 @@
 
 https://becoming.netlify.app
 
+> Because of theme, building requires **hugo extended** which **is not** available via snap in ubuntu but a .deb can be downloaded from releases github page
+
 Theme https://themes.gohugo.io/hugo-book/
 
 hugo releases
