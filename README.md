@@ -15,3 +15,6 @@ https://gohugo.io/hosting-and-deployment/hosting-on-netlify/
 
 Configure a custom domain
 https://docs.netlify.com/domains-https/custom-domains/configure-external-dns/#configure-a-subdomain
+
+Run dev server locally `hugo server -D`
+Build `hugo -D`
