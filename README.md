@@ -4,7 +4,8 @@ https://becoming.tech
 
 This repository contains the source code fo the website.
 
-> Because of the theme, building of the site requires **hugo extended** which **is not** available in snapcraft. 
+> The theme is using `scss`, so building the site requires **hugo extended** 
+> which **is not** available in snapcraft. 
 >
 > Yet, a .deb package can be downloaded from releases github page: https://github.com/gohugoio/hugo/releases
 
