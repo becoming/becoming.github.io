@@ -48,6 +48,7 @@ In Linux there are several ways to install java, we'll do it the cool way - via 
 1. Make sure to click `Yes` or all your efforts will fail
 1. Finish and .. whatever
 1. When done run the command line `Win + R` type `cmd` hit `Enter`, because you can
+![](/installjava/windows/win-run-cmd.png) 
 1. Type `java --version` and hit `Enter` again
 ![](/installjava/windows/java-version.png) 
 {{< /tab >}}
