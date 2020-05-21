@@ -20,7 +20,7 @@ The steps might lightly differ from one distribution to another.
 
 In Linux there are several ways to install java, we'll do it the cool way - via Terminal.
 
-1. Open the terminal, via `Ctrl + Alt + T` or find the _Terminal_ or _Konsole_ application in the apps menu, usually opened via `Win` button.
+1. Open the terminal, via `Ctrl + Alt + T` or find the _Terminal_ or _Konsole_ application in the apps menu, usually opened via [`Win` key](/docs/how_tos/win-key/).
 1. Type with your bare hands `sudo apt install openjdk-11-jdk`, press key `Enter`. You'll be asked for password, type it and press again `Enter`.
 ![](/sudo-apt-install-openjdk11.png) 
 1. Wait for magic to happen then check if all went well by checking the java version. For that we'll type in the same console `java -version` then press `Enter`.

@@ -12,7 +12,7 @@ title: "Episode 2, Write Java App"
 > 
 > This tutorial is intended for beginners, if is too detailed for you, go and cry in a corner, then come back when done 
 
-1. Open the file manager (_quite often the shortcut is `Win + E`_)
+1. Open the file manager (_quite often the shortcut is [`Win + E`](/docs/how_tos/win-key/)_)
 1. Navigate to your home folder
     1. Often this shortcut works `Alt + Home`
 1. Create a folder with the name `lameapp`

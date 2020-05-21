@@ -1,3 +1,7 @@
+---
+weight: 2
+title: "Intellij Idea"
+---
 # How To - Intellij Idea
 
 > Note for Mac users: Alt = Option
