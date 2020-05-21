@@ -21,9 +21,3 @@ Or, If you are not bored to death by now, go further to:
 
 You think you mastered kung-fu ? Then go to:
   - [Season 2 - I know Kung-Fu](/docs/java/season_2/)
-
----
-
-Image sources:
-1. [pill.gif](https://tenor.com/view/blueor-red-pill-pills-choose-which-one-keanu-reeves-matrix-gif-3294524)
-1. [lame.gif](https://tenor.com/view/lame-pff-regular-show-gif-13089206)

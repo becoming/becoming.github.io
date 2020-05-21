@@ -15,8 +15,10 @@ You have no right unless you can pass the technical interview with me, the autho
 
  - [Java]({{< relref "/docs/java" >}})
 
-## Image sources:
+{{< expand "Image sources" >}}
+## Markdown content
 1. [pill.gif](https://tenor.com/view/blueor-red-pill-pills-choose-which-one-keanu-reeves-matrix-gif-3294524)
 1. [lame.gif](https://tenor.com/view/lame-pff-regular-show-gif-13089206)
 1. [sponge-bob-school.gif](https://tenor.com/view/school-gif-4472279)
 1. [shame.gif](https://tenor.com/view/no-nope-smh-kanye-west-gif-4246025)
+{{< /expand >}}
