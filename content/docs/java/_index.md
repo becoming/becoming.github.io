@@ -3,6 +3,9 @@ weight: 1
 bookFlatSection: true
 title: "Java"
 ---
+{{< hint info >}}
+This website is very much under construction. We have updates every 1-2 days!
+{{< /hint >}}
 # Becoming a Java Developer
 
 > Hello, it'll be hard!

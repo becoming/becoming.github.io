@@ -3,7 +3,9 @@ bookCollapseSection: true
 weight: 1
 title: "Season 1, From Lame to Fame"
 ---
-
+{{< hint info >}}
+This website is very much under construction. We have updates every 1-2 days!
+{{< /hint >}}
 # Season 1, From Lame to Fame
 
 ### Objectives
@@ -18,6 +20,7 @@ You can stop and resume at any time. The lamer you are, the more stops you'll do
 
 ![](/lame.gif)
 
-[Episode 1 - Install Java](./episode_1/)
-
-[Episode 2 - Write Java App](./episode_2/)
+- [Episode 1 - Install Java](./episode_1/)
+- [Episode 2 - Write Java App](./episode_2/)
+- [Episode 3 - Install Maven](./episode_3/)
+- [Episode 4 - Compile with Maven](./episode_4/)

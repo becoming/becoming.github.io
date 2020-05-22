@@ -1,6 +1,7 @@
 ---
 bookCollapseSection: true
 weight: 20
+title: "TODO, Season 2, I know Kung-Fu"
 ---
 
 # Season 2

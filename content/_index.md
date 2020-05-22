@@ -2,6 +2,9 @@
 title: Introduction
 type: docs
 ---
+{{< hint info >}}
+This website is very much under construction. We have updates every 1-2 days!
+{{< /hint >}}
 
 ## Hello dear padavan
 
@@ -14,6 +17,10 @@ You have no right unless you can pass the technical interview with me, the autho
 ## Available curriculums
 
  - [Java]({{< relref "/docs/java" >}})
+
+## Source code of the site
+
+ - [GitHub](https://github.com/becoming/becoming.github.io)
 
 {{< expand "Image sources" >}}
 1. [pill.gif](https://tenor.com/view/blueor-red-pill-pills-choose-which-one-keanu-reeves-matrix-gif-3294524)
