@@ -1,10 +1,10 @@
 ---
 weight: 3
 bookFlatSection: true
-title: "Episode 3, Compile with Maven"
+title: "Episode 3, Install Maven"
 ---
 
-# Episode 3, Compile with Maven
+# Episode 3, Install Maven
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
