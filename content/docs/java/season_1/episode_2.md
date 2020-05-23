@@ -35,7 +35,7 @@ Open `Documents`
 {{< /tab >}}
 {{< /tabs >}}
 1. Use a simple text editor to edit `LameApp.java` file (_e.g. Notepad, Notepad++, Kate, Kwrite, Gedit, Nano, vim_)
-1. Type the folowing content (_no copy/pasting you little... you know the word_): 
+1. Type the following content (_no copy/pasting you little... you know the word_): 
 ```java
 public class LameApp {
 
@@ -73,4 +73,5 @@ Press `Win + R` then `Enter` then type `cmd` then hit enter with all your inner 
 1. Second, we run the thing by typing in terminal `java LameApp`
 ![](/java-lameapp.png)
 1. Now you cry and feel happy, you are not so lame as you thought
-1. [Click here to see happiness in action](https://tenor.com/search/happy-gifs)
+
+{{< button href="https://tenor.com/search/happy-gifs" >}}You did it my friend, enjoy happiness!{{< /button >}}
