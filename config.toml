@@ -2,3 +2,6 @@ baseURL = "https://becoming.tech/"
 languageCode = "en-us"
 title = "Becoming.tech"
 theme = "book"
+
+[params]
+  BookLogo = "/logo/64.png"
