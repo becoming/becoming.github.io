@@ -1,10 +1,10 @@
 ---
 weight: 2
 bookFlatSection: true
-title: "Episode 2, Write Java App"
+title: "Episode 2, Write and Compile Java App"
 ---
 
-# Episode 2, Write Java App
+# Episode 2, Write and Compile Java App
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 

@@ -45,17 +45,17 @@ title: "Episode 4, Compile with Maven"
 ```
 1. Save the file
 1. Create the following directory structure `src/main/java/tech/becoming/lameapp`
-1. Copy `LameApp.java` to `src/main/java/tech/becoming/lameapp`
-1. The root of your app will become now this path `src/main/java/`
-1. Use a simple text editor to edit `LameApp.java` file (_e.g. Notepad, Notepad++, Kate, Kwrite, Gedit, Nano, vim_)
-    - Add one line at the start of the file `package tech.becoming.lameapp;`
-    - Note **tech.becoming.lameapp** refers to _src/main/java/_**tech/becoming/lameapp** has
-1. Now open the **terminal** or `cmd`
+1. Move `LameApp.java` to `src/main/java/tech/becoming/lameapp`
+1. Use a simple text editor to edit `LameApp.java` file (_e.g. Notepad, Kate, Gedit, Nano, vim_)
+1. Add this line at the beginning of the file `package tech.becoming.lameapp;`
+    - Note **tech.becoming.lameapp** refers to _src/main/java/_**tech/becoming/lameapp**
+1. Go back to your original folder `lameapp`, where `pom.xml` is located
+1. Open here the **terminal** or `cmd`
 1. Type `mvn clean package` and hit `Enter`
 1. When `BUILD SUCCESS`, your app will be located under newly created directory called `target/` 
     - The name of your app will be `lameapp-0.0.1-SNAPSHOT.jar`
     - Which equals to `<artifactId>` a _dash_ and `<version>` tags from `pom.xml`
-1. Then we can run the built app like this: 
+1. Run the built app like this: 
 ```shell script
 java -cp target/lameapp-0.0.1-SNAPSHOT.jar tech.becoming.lameapp.LameApp
 ```
