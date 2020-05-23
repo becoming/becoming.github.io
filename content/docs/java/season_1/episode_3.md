@@ -58,12 +58,26 @@ export PATH=$PATH:$M2 # Add our $M2 to the global $PATH variable so that the ter
 1. Press `Ctrl + S` to save and `Alt + F4` to close the editor
 1. Press `Ctrl + Alt + T` to open a console
 1. Type `mvn --version` then `Enter`
-
 ![](/java/season1/episode3/maven-version.png) 
 {{< /tab >}}
 
 {{< tab "Windows" >}}
+1. In my case, I've extracted maven here `C:\apache-maven-3.6.3` and I'll use this path as reference
 
+**Console way**
+1. Open `cmd` (_command.com_, _command_ or simply _cmd_)
+    - Press `Win + R` type `cmd` and press `Enter`
+![](/installjava/windows/win-run-cmd.png) 
+
+1. Declare MVN_HOME variable with value equal to the location of Maven app
+    - Type `setx MVN_HOME "C:\apache-maven-3.6.3"` and hit `Enter`
+1. Declare `M2` variable with value equal to the location of the [mvn] binary (executable), we re-use $MVN_HOME variable to make the value shorter
+    - Type `setx M2 "%MVN_HOME%\bin"` and hit `Enter`
+1. Add our `%M2%` to the global $PATH variable so that the terminal will know where to find [mvn] binary when we'll type it
+    - Type `setx PATH "%M2%;%PATH%"` and hit `Enter`
+1. Close `cmd` and open it again, see step #1
+1. Type `mvn --version` then `Enter`
+![](/java/season1/episode3/maven-version.png) 
 {{< /tab >}}
 
 {{< tab "MacOS" >}} 
