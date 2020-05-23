@@ -4,7 +4,7 @@ bookFlatSection: true
 title: "Episode 4, Compile with Maven"
 ---
 
-# Episode 3, Compile with Maven
+# Episode 4, Compile with Maven
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
