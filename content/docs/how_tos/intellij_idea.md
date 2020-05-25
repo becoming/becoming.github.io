@@ -10,6 +10,7 @@ title: "Intellij Idea"
 
 1. When installing from scratch
     - Please do not install all plugins, it'll transform your IDE into trash
+    - You can refer to [this article to learn more about how to configure for Java And Spring Boot](/docs/java/season_1/episode_6/)
 
 ## General default behaviour
 

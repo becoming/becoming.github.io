@@ -64,3 +64,7 @@ Now we need to configure Plugins. Having only the needed plugins makes the edito
     1. KeyPromoterX - Helps you to learn shortcuts, for every mouse action that has a shortcut you'll get notification with associated shortcut
     1. IDE Features Trainer - Helps you to master Intellij Idea, I cannot stress out how much is this helpful
 1. Start using Intellij Idea
+
+---
+
+You are wondering if you can do more ? Sure you can: [How To - Intellij Idea](/docs/how_tos/intellij_idea/)

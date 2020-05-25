@@ -1,10 +1,10 @@
 ---
 weight: 7
 bookFlatSection: true
-title: "Episode 7, Run with Intellij Idea"
+title: "Episode 7, Build with Intellij Idea"
 ---
 
-# Episode 7, Run with Intellij Idea
+# Episode 7, Build with Intellij Idea
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
