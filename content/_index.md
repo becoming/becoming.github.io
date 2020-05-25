@@ -28,4 +28,5 @@ You have no right unless you can pass the technical interview with me, the autho
 1. [lame.gif](https://tenor.com/view/lame-pff-regular-show-gif-13089206)
 1. [sponge-bob-school.gif](https://tenor.com/view/school-gif-4472279)
 1. [shame.gif](https://tenor.com/view/no-nope-smh-kanye-west-gif-4246025)
+1. [gearup.gif](https://tenor.com/view/ready-battle-arnold-schwarzenegger-gear-gif-16766185)
 {{< /expand >}}

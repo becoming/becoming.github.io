@@ -1,10 +1,10 @@
 ---
 weight: 4
 bookFlatSection: true
-title: "Episode 4, Compile with Maven"
+title: "Episode 4, Build with Maven"
 ---
 
-# Episode 4, Compile with Maven
+# Episode 4, Build with Maven
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
