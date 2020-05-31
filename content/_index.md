@@ -17,6 +17,7 @@ You have no right unless you can pass the technical interview with me, the autho
 ## Available curriculums
 
  - [Java]({{< relref "/docs/java" >}})
+ - [Talks](https://talks-becoming-tech.netlify.app)
 
 ## Source code of the site
 

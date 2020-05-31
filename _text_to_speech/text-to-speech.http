@@ -1,0 +1,15 @@
+POST https://texttospeech.googleapis.com/v1/text:synthesize?alt=json&key={{text-to-speech-api-key}}
+
+{
+  "input": {
+    "text": "Hello"
+  },
+  "voice": {
+    "name": "",
+    "languageCode": "en-US"
+  },
+  "audioConfig": {
+    "audioEncoding": "MP3",
+    "pitch": 0
+  }
+}

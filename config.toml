@@ -4,4 +4,4 @@ title = "Becoming.tech"
 theme = "book"
 
 [params]
-  BookLogo = "/logo/64.png"
+    BookLogo = "/logo/64.png"
