@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 1
 title: "Win key"
 ---
 # How To - Find the Win key

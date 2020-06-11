@@ -1,34 +1,28 @@
 ---
-weight: 2
-title: "Intellij Idea"
+weight: 3
+title: "Intellij Idea - Introduction"
 ---
-# How To - Intellij Idea
+# Intellij Idea - Introduction
 
-> Note for Mac users: Alt = Option
+> Note for Mac users: `Alt` is same as `Option`
 >
-> Note for Linux and Windos users: Cmd = Ctrl
-
-1. When installing from scratch
-    - Please do not install all plugins, it'll transform your IDE into trash
-    - You can refer to [this article to learn more about how to configure for Java And Spring Boot](/docs/java/season_1/episode_6/)
+> Note for Linux and Windows users: `Cmd` is same as `Ctrl`
 
 ## General default behaviour
 
-1. Official Pro Tips: https://www.jetbrains.com/help/idea/pro-tips.html.
-
 1. CARET is the little blinking thing that you see when you type text.
 
-1. Learn default settings, try to avoid over customization.
+1. Learn default settings, try to avoid *over customization*.
 
-1. NoSQL has NoSupport.
+1. NoSQL has *NoSupport*.
 
 1. Do not version IDE specific files.
 
 1. In Idea placement of caret = context. And context will dictate what options will be available.
 
-1. Slow intelli-sense - SSD under heavy IO ?
+1. Use SSD for fast intelli-sense.
 
-1. General caret moves work well: Cmd + Arrows, Shift + Cmd + Arrows, etc.
+1. General caret moves work well: `Cmd + Arrows`, `Shift + Cmd + Arrows`, etc.
 
 1. The easiest way to learn Idea is by using : Tip of the day from Help menu
 
@@ -293,3 +287,4 @@ Most of the settings described here are available on both levels
 1. **Edit:** `Shift + Enter` Start a new line under current one and move caret to it
 1. **Edit:** `Cmd + Enter` Split current line, move the content after the caret to a new line
 
+Next: [Videos showing various features into Intellij Idea](/docs/how_tos/intellij_idea_videos/)
