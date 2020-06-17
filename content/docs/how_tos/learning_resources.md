@@ -16,6 +16,7 @@ Since you want to earn, you need to invest in yourself.
 1. [Baeldung Spring Course](https://www.baeldung.com/learn-spring-course)
 1. [Baeldung Rest with Spring](https://www.baeldung.com/rest-with-spring-course)
 1. [Baeldung Spring Security](https://www.baeldung.com/learn-spring-security-course)
+1. [Whats New in Spring Boot 2.3](https://www.youtube.com/watch?v=WL7U-yGfUXA)
 
 ## Security
 
