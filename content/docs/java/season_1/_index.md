@@ -27,3 +27,4 @@ You can stop and resume at any time. The lamer you are, the more stops you'll do
 - [Episode 5 - Install Intellij Idea](./episode_5/)
 - [Episode 6 - Configure Intellij Idea](./episode_6/)
 - [Episode 7 - Build with Intellij Idea](./episode_7/)
+- [Episode 7 - Final word](./episode_8/)

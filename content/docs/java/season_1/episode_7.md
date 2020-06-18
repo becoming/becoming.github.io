@@ -32,3 +32,6 @@ Here's a great example on how to do that
 **Working With Maven in IntelliJ IDEA** by [Trisha Gee](https://twitter.com/trisha_gee)
 
 {{< youtube pt3uB0sd5kY >}}
+
+> You made it ? 
+> Great, now is time for a good video for you
