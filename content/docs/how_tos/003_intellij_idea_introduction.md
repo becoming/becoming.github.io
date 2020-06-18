@@ -287,4 +287,4 @@ Most of the settings described here are available on both levels
 1. **Edit:** `Shift + Enter` Start a new line under current one and move caret to it
 1. **Edit:** `Cmd + Enter` Split current line, move the content after the caret to a new line
 
-Next: [Videos showing various features into Intellij Idea](/docs/how_tos/intellij_idea_videos/)
+Next: [Videos showing various features into Intellij Idea](/docs/how_tos/004_intellij_idea_videos/)

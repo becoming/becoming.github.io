@@ -10,7 +10,9 @@ This website is very much under construction. We have updates every 1-2 days!
 
 > Hello, it'll be hard!
 
-Congrats junior, you just decided to stop being lame and start learning Java programming language. 
+Congrats junior, you just decided to stop being lame and start learning Java programming language.
+
+We'll focus mainly on **Java 11**
 
 Before you go further, you need to decide what **pill** you gonna take ?
 
@@ -22,5 +24,8 @@ Before you go further, you need to decide what **pill** you gonna take ?
 Or, If you are not bored to death by now, go further to:
   - [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
+Let's start with building blogs, The ABCs:
+  - [Season 2 - The ABCs](/docs/java/season_2/)
+  
 You think you mastered kung-fu ? Then go to:
-  - [Season 2 - I know Kung-Fu](/docs/java/season_2/)
+  - [Season 3 - I know Kung-Fu](/docs/java/season_3/)

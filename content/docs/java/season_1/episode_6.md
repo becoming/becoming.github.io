@@ -67,4 +67,4 @@ Now we need to configure Plugins. Having only the needed plugins makes the edito
 
 ---
 
-You are wondering if you can do more ? Sure you can: [How To - Intellij Idea](/docs/how_tos/intellij_idea_introduction/)
+You are wondering if you can do more ? Sure you can: [How To - Intellij Idea](/docs/how_tos/003_intellij_idea_introduction/)

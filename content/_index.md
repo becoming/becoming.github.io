@@ -17,6 +17,8 @@ You have no right unless you can pass the technical interview with me, the autho
 ## Available curriculums
 
  - [Java]({{< relref "/docs/java" >}})
+    - the actual targeted version is **Java 11**
+    - once next stable will be released we'll adapt the curriculum to that one.
  - [Talks](https://talks-becoming-tech.netlify.app)
 
 ## Source code of the site

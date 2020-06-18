@@ -1,24 +1,20 @@
 ---
 bookCollapseSection: true
-weight: 20
-title: "TODO, Season 2, I know Kung-Fu"
+weight: 2
+title: "Season 2, The ABCs"
 ---
 
 # Season 2
-## I know Kung-Fu
+## The ABCs
 
 ### Objectives
 
-Since your machine is setup, you need to start writing actual applications. You are not lame anymore and not yet a hacker.
+You'll learn basic mechanics, building blocks of the language. You are not lame anymore, and you are *not yet a hacker*.
 
 ### Structure
 
-As usual, this part is organized in small and very precise steps, which you have to do, one after another. 
+This part is organized in small and very precise steps, which you have to do, one after another. 
 
+{{< youtube xd6BYtjF4xY >}}
 
-
-![](images/lame.gif)
-
-[Episode 1 - Install Java](./Episode-1-Install-Java.md)
-
-[Episode 2 - Write Java App](./Episode-2-Write-Java-App.md)
+[Episode 1 - First class](./episode_1/)
