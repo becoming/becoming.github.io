@@ -60,9 +60,4 @@ In Linux there are several ways to install java, we'll do it the cool way - via 
 TODO
 
 {{< /tab >}}
-
-
-
-
-
 {{< /tabs >}}

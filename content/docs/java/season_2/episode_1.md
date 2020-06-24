@@ -59,3 +59,32 @@ to humans, not to computers. Is like leaving notes to not forget.
     ```
 1. We just created a *source code file*. 
     - Here are some details: [/docs/how_tos/007_source_code_files/](/docs/how_tos/007_source_code_files/)
+1. If you want to run it:
+{{< tabs "run" >}}
+{{< tab "Intellij Idea" >}}
+- Right click inside the file and click *Run*
+
+**OR**
+
+- Click on little green triangle, that looks like *play* located on the same line as to `public static void main(..)`.
+
+[If you cannot find it then click here for details](https://www.jetbrains.com/help/idea/running-applications.html).
+{{< /tab >}}
+{{< tab "Terminal" >}}
+Navigate to the location of the file `FirstClass.java` with **cd** command, e.g. `cd /home/$USER/java-abc`. 
+1. Simple way `java FirstClass.java`.
+    - Works if you have one single class file.
+
+1. Classical way:
+```shell script
+# FIRST, compile your program (your app)
+javac FirstClass.java
+# mind the java[c] letter in javac command, javac = is the app that can transform files with .java extension, into apps. This is the java compiler, hence the letter [c]
+
+# As result you'll find another file with similar name but different extension, called FirstClass.class
+# SECOND run the program (the app)
+java FirstClass
+# mind the absence of the [c] letter from the command, java - is actual java runtime launcher, app that can run java programs
+```
+{{< /tab >}}
+{{< /tabs >}}
