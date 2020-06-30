@@ -199,5 +199,9 @@ Navigate to the location of the file `App.java` with **cd** command, e.g. `cd /h
 javac App.java
 java App
 ```
+
+After launching terminal command you'll see newly generated `.class` files. You can try to open them with any text editor. 
+They look funny as they are binary files, compiled by `javac` compiler. The content is `bytecode`, something understood by the JVM.
+
 {{< /tab >}}
 {{< /tabs >}}
