@@ -8,8 +8,6 @@ title: "Episode 3, Functions"
 
 [Season 2 - The ABCs](/docs/java/season_2/)
 
-# Functions
-
 {{< hint info >}}
 In this chapter we'll cover essential features of the subject. For more details you need follow th links at the end.
 {{< /hint >}}

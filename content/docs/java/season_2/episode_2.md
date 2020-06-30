@@ -8,8 +8,6 @@ title: "Episode 2, Variables"
 
 [Season 2 - The ABCs](/docs/java/season_2/)
 
-# Variables
-
 {{< hint info >}}
 In this chapter we'll cover essential features of the subject. For more details you need follow th links at the end.
 {{< /hint >}}
