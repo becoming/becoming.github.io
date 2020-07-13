@@ -14,8 +14,6 @@ title: "Intellij Idea - Introduction"
 
 1. Learn default settings, try to avoid *over customization*.
 
-1. NoSQL has *NoSupport*.
-
 1. Do not version IDE specific files.
 
 1. In Idea placement of caret = context. And context will dictate what options will be available.
