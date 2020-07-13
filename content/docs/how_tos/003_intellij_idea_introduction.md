@@ -100,8 +100,14 @@ title: "Intellij Idea - Introduction"
     - Help button in popups, contextual info
        - how info is organized
 
-1. Scroll from and scroll to features
+1. *Open files with single click* and *Always select open files* features
+![Auto-navigation and file selection](/howtos/intellijidea/open-selected.png)
 
+1. [Smart keys](https://www.jetbrains.com/help/idea/settings-smart-keys.html)
+    - Use 'CamelHumps' words
+    - Add multiple carets on double Ctrl with arrow keys 
+    - Jump outside closing bracket/quote with Tab when typing 
+    - etc.
 ## Plugins
 
 1. **Plugin:** Presentation assistant
@@ -164,6 +170,7 @@ We distinguish 2 categories
 
 Most of the settings described here are available on both levels
 
+1. **Setting:** `Appearance and Behavior | System Settings -> Startup/Shutdown : Reopen last project on startup` 
 1. **Setting:** `Editor / Inspections -> Java : Logging` Placeholders
     - Set to warning, so that SLF4J shows if you have a missmatch between passed params and placeholders in the message.
 1. **Setting:** `Editor / General -> Maximum number of contents to keep in clipboard`
@@ -172,8 +179,7 @@ Most of the settings described here are available on both levels
     - `Cmd + Shift + A` type *Column mode*, hit `Enter`
     - `Alt + Shift + Mouse Left Click` : put carets under cursor
     - `Middle click + Hold + Drag` selection, for *non-Apple mouse* users 
-    - https://www.jetbrains.com/help/idea/working-with-source-code.html#multiple_cursor
-    - Working with *multiple carets*
+    - [Working with *multiple carets*](https://www.jetbrains.com/help/idea/working-with-source-code.html#multiple_cursor)
 1. **Setting:** `Editor / Code Style / Java -> Group Declarations : Align fields in columns`
     - Group / align fields in one column and values after equals in other column
 1. **Setting:** `Editor / General -> Highlight on Caret movement : Highlight current scope`
@@ -183,7 +189,12 @@ Most of the settings described here are available on both levels
 1. **Setting:** `Languages & Frameworks / SQL Resolution Scopes`
 1. **Setting:** `Editor / General / Appearance : Show inferred annotations inline`
     - ![Show inferred annotations inline](/howtos/intellijidea/show_inferred_annotations.png)
-###Within IDE
+1. **Setting:** *Git-Bash* instead of *CMD*, only for Windows, `Tools / Terminal / Application settings - Shell path`
+     - Set value to `"C:\Program Files\Git\bin\sh.exe" --login -i`, assuming that *git* is located under *C:\Program Files\Git*
+    - All shell scripts will run with *git-bash* now
+    - To revert change value to `cmd.exe`
+    
+### Within IDE
 
 1. Bottom right corner : `4 spaces` change indentation
 1. Bottom right corner : `Togle read only attribute` file
