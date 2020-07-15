@@ -17,6 +17,10 @@ This part is organized in small and very precise steps, which you have to do, on
 
 {{< youtube fhrNgXJ__n8 >}}
 
-[Episode 1 - Calculator](./episode_1/)
-
-[Episode 1 - Calculator - Coding](./episode_1_coding/)
+- [Episode 1 - Calculator](./episode_1/)
+- [Episode 1 - Calculator - Coding](./episode_1_coding/)
+---
+- [Episode 2 - Exchange](./episode_2/)
+- [Episode 2 - Exchange - Coding](./episode_2_coding/)
+---
+- [Episode 3 - Contact List](./episode_3/)
