@@ -24,3 +24,4 @@ This part is organized in small and very precise steps, which you have to do, on
 - [Episode 2 - Exchange - Coding](./episode_2_coding/)
 ---
 - [Episode 3 - Contact List](./episode_3/)
+- [Episode 3 - Contact List - Coding](./episode_3_coding/)
