@@ -1,6 +1,6 @@
 ---
 bookCollapseSection: true
-weight: 4
+weight: 0
 title: "Season 4, Spring time"
 ---
 
@@ -18,3 +18,4 @@ This part is organized in small and very precise steps, which you have to do, on
 {{< youtube LDKWQ7_Dn5M >}}
 
 - [Episode 1 - start.spring.io](./episode_1/)
+- [Episode 2 - import pom.xml as project](./episode_2/)

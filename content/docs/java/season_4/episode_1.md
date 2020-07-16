@@ -1,10 +1,10 @@
 ---
-weight: 2
+weight: 1
 bookFlatSection: true
 title: "Episode 1, start.spring.io"
 ---
 
-# Episode 1, Episode 1, start.spring.io
+# Episode 1, start.spring.io
 
 [Season 4, Spring time](/docs/java/season_4/)
 
