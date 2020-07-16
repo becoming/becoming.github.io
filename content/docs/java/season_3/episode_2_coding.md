@@ -1,5 +1,5 @@
 ---
-weight: 5
+weight: 4
 bookFlatSection: true
 title: "Episode 2, Exchange - Coding"
 ---

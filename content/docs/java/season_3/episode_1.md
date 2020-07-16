@@ -1,5 +1,5 @@
 ---
-weight: 3
+weight: 1
 bookFlatSection: true
 title: "Episode 1, Calculator"
 ---
