@@ -10,23 +10,23 @@ title: "Intellij Idea - Introduction"
 
 ## General default behaviour
 
-1. CARET is the little blinking thing that you see when you type text.
-
 1. Learn default settings, try to avoid *over customization*.
 
 1. Do not version IDE specific files.
 
-1. In Idea placement of caret = context. And context will dictate what options will be available.
+1. *CARET* is the little blinking thing that you see when you type text.
 
-1. Use SSD for fast intelli-sense.
+1. In Idea placement of the caret = scope (*context*). And context will dictate what options will be available.
 
-1. General caret moves work well: `Cmd + Arrows`, `Shift + Cmd + Arrows`, etc.
+1. Use SSD for fast *intelli-sense*.
 
-1. The easiest way to learn Idea is by using : Tip of the day from Help menu
+1. Practice navigation with `Alt + Arrows`, `Cmd + Arrows`, `Shift + Cmd + Arrows`, etc.
 
-1. Auto-curly braces in special blocks are added ad the end of the line or new line
+1. The easiest way to learn Idea is by using: 
+    - *Tip of the day* or *Productivity Guide* from Help menu
+    - *Pro Tips* from help: https://www.jetbrains.com/help/idea/pro-tips.html
 
-1. Code completion supports Quick Doc
+1. Code completion supports *Quick Doc*
 
 1. Sync settings and plugins : https://www.jetbrains.com/help/idea/sharing-your-ide-settings.html
      - Jetbrains account
@@ -69,20 +69,7 @@ title: "Intellij Idea - Introduction"
     - `F3` Toggle bookmarks
     - `Cmd + F3` Open list of bookmarks 
 
-1. Breakpoints
-    - Toggle
-        - `Left click on the line`
-        - `Cmd + F8`
-    - Edit or set condition and Open breakpoints window
-        - `Cmd + Shift + F8`
-    - When in debug, the panels have a `Disable breakpoints button`
-
 1. Hold cursor over a button, link, icon, etc. to get a tooltip with name of the feature
-
-1. Support for `@Nullable`, with default highlight level set to `Warning`
-
-1. Auto-contracts, deduced from method declaration: `@Nullable` vs `@NotNull`
-    - An icon will appear at the line level to show the contract
 
 1. Auto-re-index
     - IDE updates
@@ -106,6 +93,20 @@ title: "Intellij Idea - Introduction"
     - Add multiple carets on double Ctrl with arrow keys 
     - Jump outside closing bracket/quote with Tab when typing 
     - etc.
+
+1. Breakpoints
+    - Toggle
+        - `Left click on the line`
+        - `Cmd + F8`
+    - Edit or set condition and open breakpoints window
+        - `Cmd + Shift + F8`
+    - When in debug, the panels have a `Disable breakpoints button`
+
+1. Support for `@Nullable`, with default highlight level set to `Warning`
+
+1. Auto-contracts, deduced from method declaration: `@Nullable` vs `@NotNull`
+    - An icon will appear at the line level to show the contract
+
 ## Plugins
 
 1. **Plugin:** Presentation assistant
@@ -115,8 +116,6 @@ title: "Intellij Idea - Introduction"
     - `Ant + Enter` inside the content where custom language is present
     - https://www.jetbrains.com/help/idea/using-language-injections.html
     - Language injections
-
-### Integration
 
 1. **Plugin:** Docker Integration
     - Advanced UI like Kitematic
@@ -137,6 +136,9 @@ title: "Intellij Idea - Introduction"
     - If you change version of a plugin in pom.xml - Check the logs, IDEA could use the previous version of it
     - `Preferences - Build, Execution, Deployment - Build Tools - Maven - Ignored Files` - be aware of this list
     
+1. **Plugin:** Maven Helper
+    - Helps to manage dependencies - visually
+    
 1. **Plugin:** .ignore
     - Help manage `.ignore` files
     - With highlight support
@@ -151,6 +153,7 @@ title: "Intellij Idea - Introduction"
     - Tables are used for auto completion in SQL files from source code
     - `Tx:` setting should be considered
         - ![Important mention about Tx setting](/howtos/intellijidea/db-tx-type.png)
+
 1. **Plugin:** Http client
     - https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html#viewingResponse
     - Supports composing of requests in a text way
@@ -158,6 +161,12 @@ title: "Intellij Idea - Introduction"
     - Can be configured via `rest-client.env.json` or `http-client.env.json`
         - Yet, somehow is limited
     - Have support for Spring controllers, just like Run button for routes
+
+1. **Plugin:** Key Promoter X
+    - https://plugins.jetbrains.com/plugin/9792-key-promoter-x/
+    - Helps to learn shortcuts
+    - When you do a mouse based action it'll give you the shortcut
+    - If you do more times same action with mouse and there's no shortcut it'll propose to set one
 
 ## Settings
 
@@ -169,23 +178,24 @@ We distinguish 2 categories
 Most of the settings described here are available on both levels
 
 1. **Setting:** `Appearance and Behavior | System Settings -> Startup/Shutdown : Reopen last project on startup` 
-1. **Setting:** `Editor / Inspections -> Java : Logging` Placeholders
+1. **Setting:** `Editor / Inspections -> Java > Logging > Number of placeholders does not match number of arguments in logging call`
     - Set to warning, so that SLF4J shows if you have a missmatch between passed params and placeholders in the message.
-1. **Setting:** `Editor / General -> Maximum number of contents to keep in clipboard`
-    - You can change content before selecting it for pasting
+1. **Setting:** `Editor / General -> Change font size with Ctrl/Command+Mouse Wheel`
+    - Good to have it active in case you want quickly increase the size so that other can see better
 1. **Setting:** `Cmd + Shift + 8` Column mode on/off 
     - `Cmd + Shift + A` type *Column mode*, hit `Enter`
     - `Alt + Shift + Mouse Left Click` : put carets under cursor
     - `Middle click + Hold + Drag` selection, for *non-Apple mouse* users 
     - [Working with *multiple carets*](https://www.jetbrains.com/help/idea/working-with-source-code.html#multiple_cursor)
-1. **Setting:** `Editor / Code Style / Java -> Group Declarations : Align fields in columns`
+1. **Setting:** `Editor / Code Style / Java -> Wrapping and Braces -> Group Declarations : Align fields in columns`
     - Group / align fields in one column and values after equals in other column
-1. **Setting:** `Editor / General -> Highlight on Caret movement : Highlight current scope`
-    - Group / align fields in one column and values after equals in other column
-1. **Setting:** `Editor / General Smart Keys -> Surround selection on typing quote or brace`
+1. **Setting:** `Editor / Code Editing -> Highlight on Caret movement : Current scope`
+    - Highlight the currently selected scope (*variable, function, class, etc.*)
+1. **Setting:** `Editor / General / Smart Keys -> Surround selection on typing quote or brace`
     - The selected text get brackets or quotes instead of replacing
 1. **Setting:** `Languages & Frameworks / SQL Resolution Scopes`
-1. **Setting:** `Editor / General / Appearance : Show inferred annotations inline`
+    - Map parts of your source code to specific SQL Databases configured in Intellij Idea
+1. **Setting:** [File | Settings | Editor | Inlay Hints | Java -> Annotations -> Show Hints for -> Inferred Annotations](jetbrains://idea/settings?name=Editor--Inlay+Hints--Java)
     - ![Show inferred annotations inline](/howtos/intellijidea/show_inferred_annotations.png)
 1. **Setting:** *Git-Bash* instead of *CMD*, only for Windows, `Tools / Terminal / Application settings - Shell path`
      - Set value to `"C:\Program Files\Git\bin\sh.exe" --login -i`, assuming that *git* is located under *C:\Program Files\Git*
