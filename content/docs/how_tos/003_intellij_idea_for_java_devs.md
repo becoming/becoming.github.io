@@ -1,12 +1,14 @@
 ---
 weight: 3
-title: "Intellij Idea - Introduction"
+title: "Intellij Idea - For Java developers"
 ---
-# Intellij Idea - Introduction
+# Intellij Idea - For Java developers
 
-> Note for Mac users: `Alt` is same as `Option`
->
-> Note for Linux and Windows users: `Cmd` is same as `Ctrl`
+Idea has some available tips by default: 
+    - *Tip of the day* or *Productivity Guide* from Help menu
+    - *Pro Tips* from help: https://www.jetbrains.com/help/idea/pro-tips.html
+
+Here you'll find tips that are encountered in day to day life of Java devs
 
 ## General default behaviour
 
@@ -20,11 +22,9 @@ title: "Intellij Idea - Introduction"
 
 1. Use SSD for fast *intelli-sense*.
 
-1. Practice navigation with `Alt + Arrows`, `Cmd + Arrows`, `Shift + Cmd + Arrows`, etc.
-
-1. The easiest way to learn Idea is by using: 
-    - *Tip of the day* or *Productivity Guide* from Help menu
-    - *Pro Tips* from help: https://www.jetbrains.com/help/idea/pro-tips.html
+1. Standard navigation works: `Ctrl + Arrows`, `Ctrl + Shift + Arrows`, `End`, `Home`, etc.
+    - In MacOS for *line* operations `Home` = `Cmd + Left` and `End` = `Cmd + Right` 
+    - In MacOS for *word* operations `Ctrl + Left` = `Option + Left` and `Ctrl + Right` = `Option + Right` 
 
 1. Code completion supports *Quick Doc*
 
@@ -48,9 +48,9 @@ title: "Intellij Idea - Introduction"
 1. Diff
     - Files from modules
     - Dirs from modules
-       - Select 2 and `Cmd + D` 
+       - Select 2 and `Ctrl + D` 
     - Against external files
-       - Select 1 and `Cmd + D`
+       - Select 1 and `Ctrl + D`
     - `Right click` inside files : `Compare with Clipboard`
        - for selection
        - for entire file content
@@ -66,8 +66,8 @@ title: "Intellij Idea - Introduction"
     - Helps to open the file manager where the file is located and select the file
 
 1. Bookmarks 
-    - `F3` Toggle bookmarks
-    - `Cmd + F3` Open list of bookmarks 
+    - `F11` Toggle bookmarks
+    - `Shift + F11` Open list of bookmarks 
 
 1. Hold cursor over a button, link, icon, etc. to get a tooltip with name of the feature
 
@@ -97,9 +97,9 @@ title: "Intellij Idea - Introduction"
 1. Breakpoints
     - Toggle
         - `Left click on the line`
-        - `Cmd + F8`
+        - `Ctrl + F8`
     - Edit or set condition and open breakpoints window
-        - `Cmd + Shift + F8`
+        - `Ctrl + Shift + F8`
     - When in debug, the panels have a `Disable breakpoints button`
 
 1. Support for `@Nullable`, with default highlight level set to `Warning`
@@ -124,7 +124,7 @@ title: "Intellij Idea - Introduction"
 1. **Plugin:** Git
     - Git log
     - Blame
-    - Git-Undo per section of a file `Cmd + Alt + Z`
+    - Git-Undo per section of a file `Ctrl + Alt + Z`
     - Compare with
 
 1. **Plugin:** Maven
@@ -182,8 +182,8 @@ Most of the settings described here are available on both levels
     - Set to warning, so that SLF4J shows if you have a missmatch between passed params and placeholders in the message.
 1. **Setting:** `Editor / General -> Change font size with Ctrl/Command+Mouse Wheel`
     - Good to have it active in case you want quickly increase the size so that other can see better
-1. **Setting:** `Cmd + Shift + 8` Column mode on/off 
-    - `Cmd + Shift + A` type *Column mode*, hit `Enter`
+1. **Setting:** `Ctrl + Shift + 8` Column mode on/off 
+    - `Ctrl + Shift + A` type *Column mode*, hit `Enter`
     - `Alt + Shift + Mouse Left Click` : put carets under cursor
     - `Middle click + Hold + Drag` selection, for *non-Apple mouse* users 
     - [Working with *multiple carets*](https://www.jetbrains.com/help/idea/working-with-source-code.html#multiple_cursor)
@@ -198,7 +198,7 @@ Most of the settings described here are available on both levels
 1. **Setting:** [File | Settings | Editor | Inlay Hints | Java -> Annotations -> Show Hints for -> Inferred Annotations](jetbrains://idea/settings?name=Editor--Inlay+Hints--Java)
     - ![Show inferred annotations inline](/howtos/intellijidea/show_inferred_annotations.png)
 1. **Setting:** *Git-Bash* instead of *CMD*, only for Windows, `Tools / Terminal / Application settings - Shell path`
-     - Set value to `"C:\Program Files\Git\bin\sh.exe" --login -i`, assuming that *git* is located under *C:\Program Files\Git*
+    - Set value to `"C:\Program Files\Git\bin\sh.exe" --login -i`, assuming that *git* is located under *C:\Program Files\Git*
     - All shell scripts will run with *git-bash* now
     - To revert change value to `cmd.exe`
     
@@ -217,22 +217,22 @@ Most of the settings described here are available on both levels
        - when a class is used but not imported and Idea knows it
     - `Alt + Enter, then Esc, then Alt + Enter` 
         - sometimes invoking `Alt + Enter` second time gives other options
-    - `Cmd + F1` Details on warning
+    - `Ctrl + F1` Details on warning
         - when the caret is within an expression marked with warning background  
         - pressing twice will expand to show details
         - ![Issue details for marked expressions](/howtos/intellijidea/Cmd+F1.png)
 1. `Ctrl + Space` Code completion
 1. `Alt + Space` Quick definition, shows the implementation of the symbol
 1. `F1` Quick documentation
-1. `Cmd + Alt + X then P` evaluate XML tag
+1. `Ctrl + Alt + X then P` evaluate XML tag
     - put caret on tag
     - click first combination - nothing will happen
     - then click `P` and small pop over will show up
     - ![Evaluate XML tag](/howtos/intellijidea/Cmd+Alt+X_then_P.png)
 
-1. `Cmd + N` New File, Class, etc.
-1. `Cmd + Shift + N` New scratch file.
-1. `Cmd + J` Templates and Live templates support
+1. `Ctrl + N` New File, Class, etc.
+1. `Ctrl + Shift + N` New scratch file.
+1. `Ctrl + J` Templates and Live templates support
     - you can have **"shortcut words"** (*like keywords at IDE level*) that'll generate a code for you
     - they can work for selected text as well on their own
     - ![Schema support](/howtos/intellijidea/live-templates.png)
@@ -247,24 +247,24 @@ Most of the settings described here are available on both levels
 1. **Navigation:** `F4` Open module settings
     - Of the selected module
 1. **Navigation:** `Shift + Shift` Search everywhere
-    - `Cmd + Shift + A` - Actions only
+    - `Ctrl + Shift + A` - Actions only
     - https://www.jetbrains.com/help/idea/searching-everywhere.html
 1. **Navigation:** `Ctrl + Tab` Navigate in open tabs and panels
-1. **Navigation:** `Cmd + E` Navigate in recently closed files and panels
+1. **Navigation:** `Ctrl + E` Navigate in recently closed files and panels
 1. **Navigation:** `Esc` to go to the main Editor
     - Not consistent when using Split tabs
 1. **Navigation:** `Shift + Esc` to go to the main Editor and close current panel
-1. **Navigation:** `Cmd + Alt + ←` (*leftwards arrow*) Go **back** to previous caret location
-1. **Navigation:** `Cmd + Alt + →` (*rightwards arrow*) Go **forward** to previous caret location
-1. **Navigation:** `Cmd + O` Open class
+1. **Navigation:** `Ctrl + Alt + ←` (*leftwards arrow*) Go **back** to previous caret location
+1. **Navigation:** `Ctrl + Alt + →` (*rightwards arrow*) Go **forward** to previous caret location
+1. **Navigation:** `Ctrl + O` Open class
     - Press 2x to `Include non project files - the ones from libraries`
-1. **Navigation:** `Cmd + Shift + O` Open file
+1. **Navigation:** `Ctrl + Shift + O` Open file
     - Press 2x to `Include non project files - the ones from libraries`
 
 ## Selection
 
-1. **Selection:** `Cmd + C` : WHEN NO SELECTION - Copy line
-1. **Selection:** `Cmd + X` : WHEN NO SELECTION - Cut line
+1. **Selection:** `Ctrl + C` : WHEN NO SELECTION - Copy line
+1. **Selection:** `Ctrl + X` : WHEN NO SELECTION - Cut line
 
 1. **Selection:** `Alt + ↑`(*upwards arrow*) : multiple times
     - Select word
@@ -279,24 +279,26 @@ Most of the settings described here are available on both levels
 
 ## Edit
     
-1. **Edit:** `Cmd + V` Paste and has integrated column mode support
-1. **Edit:** `Cmd + D` Duplicate line or selection
-1. **Edit:** `Cmd + Backspace` Delete line
-1. **Edit:** `Cmd + Ctrl + G` Select all occurrences of a word inside a file
+1. **Edit:** `Ctrl + Z` Undo 
+1. **Edit:** `Ctrl + Alt + Z` Undo from Version Control System point of view 
+1. **Edit:** `Ctrl + V` Paste 
+1. **Edit:** `Ctrl + Shift + V` Paste from History 
+1. **Edit:** `Ctrl + D` Duplicate line or selection
+1. **Edit:** `Ctrl + Y` Delete line
+1. **Edit:** `Ctrl + G` Select all occurrences of a word inside a file
     - so that you can edit the selection
     - very close to what `Shift + F6` does for symbols - limited to current file scope
-1. **Edit:** `Cmd + Alt + M` Extract method
+1. **Edit:** `Ctrl + Alt + M` Extract method
     - Create a function from selection
-1. **Edit:** `Cmd + Alt + C` Extract constant 
+1. **Edit:** `Ctrl + Alt + C` Introduce constant 
     - Create constant from selection
     - Move a hardcoded string or numeric value to a constant
-1. **Edit:** `Cmd + Shift + U` Change case 
-1. **Edit:** `Ctrl + Shift + V` Paste from History 
-1. **Edit:** `Cmd + Shift + ↑`(_upwards arrow_) : move **statement** up
-1. **Edit:** `Cmd + Shift + ↓`(_downwards arrow_) : move **statement** down
+1. **Edit:** `Ctrl + Shift + U` Change case 
+1. **Edit:** `Ctrl + Shift + ↑`(_upwards arrow_) : move **statement** up
+1. **Edit:** `Ctrl + Shift + ↓`(_downwards arrow_) : move **statement** down
 1. **Edit:** `Alt + Shift + ↑`(_upwards arrow_) : move **line** up
 1. **Edit:** `Alt + Shift + ↓`(_downwards arrow_) : move **line** down
-1. **Edit:** `Cmd + Alt + L` Reformat
+1. **Edit:** `Ctrl + Alt + L` Reformat
     - Can be applied only to selected portion
     - Can be applied to a folder
 1. **Edit:** `Ctrl + Alt + O` Optimize imports
@@ -304,17 +306,17 @@ Most of the settings described here are available on both levels
     - Apply format rules for import statements 
     - Can be applied to a folder
 1. **Edit:** `Shift + Enter` Start a new line under current one and move caret to it
-1. **Edit:** `Cmd + Enter` Split current line, move the content after the caret to a new line
+1. **Edit:** `Ctrl + Enter` Split current line, move the content after the caret to a new line
 1. **Edit:** `F5` Refactor - copy class
     - When file is selected in **Project** view or cursor is placed inside a name of a class (*incl. inner classes*)
 1. **Edit:** `F6` Refactor - move class
     - When file is selected in **Project** view or cursor is placed inside a name of a class (*incl. inner classes*)
 1. **Edit:** `Shift + F6` Refactor - rename class name
     - When a class is selected in **Project** view or cursor is placed inside a class name
-1. **Edit:** `Shift + F6` Refactor - rename the folder or package name
     - When a folder or package is selected in **Project** view
-    - Option *Rename package*: will consider **all packages** with same name in **all modules** 
-    - Option *Rename folder*: will rename **only the current package** and will update `package` and all `imports` for the **current module**
+        - You might see these options if this package is present in other modules
+        - Option *Rename package*: will consider **all packages** with same name in **all modules** 
+        - Option *Rename folder*: will rename **only the current package** and will update `package` and all `imports` for the **current module**
 
 
 Next: [Videos showing various features into Intellij Idea](/docs/how_tos/004_intellij_idea_videos/)
