@@ -24,12 +24,12 @@ Here's what you'll do:
     1. Project Metadata:
         1. **Group** `tech.becoming`.
             - as you see is a domain name with words ordered backwards.
-        1. **Artifact** `email-sending-service`.
+        1. **Artifact** `file-service`.
             - this is a technical name.
-        1. **Name** `E-mail Sending Service`.
+        1. **Name** `File Service`.
             - this is a human friendly name.
-        1. **Description** `A web service capable of sending e-mail messages and exposes a REST api to trigger the sending`. 
-        1. **Package name** `tech.becoming.ess`.
+        1. **Description** `A web service capable of managing files inside a folder and exposes a REST API`. 
+        1. **Package name** `tech.becoming.files`.
             - here we start to organize classes in folders called "*packages*" and this is the root one.
         1. **Packaging** `Jar`.
             - not related to package name, this is the archive format for your application. 
@@ -38,8 +38,7 @@ Here's what you'll do:
             - we are going only for Long Term Support LTS ones versions.
             - here's the list of LTSes https://adoptopenjdk.net/.
 1. Now let's move to **Dependencies**.
-1. Click on "*Add Dependencies*" and search for: `Spring Web`, `Java Mail Sender`, 
-`Spring Boot Actuator`, `Spring Configuration Processor`.
+1. Click on "*Add Dependencies*" and search for: `Spring Web`, `Spring Boot Actuator`, `Spring Configuration Processor`.
 1. Click on **Generate** (*or press `Ctrl + Enter`*).
 1. You'll be proposed to download an archive that'll contain your the structure of your project.
 1. Then you'll obey my friend, this archive is a good thing for your mental health.
