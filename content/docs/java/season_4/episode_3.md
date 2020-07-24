@@ -10,6 +10,8 @@ title: "Episode 3, Build and run with maven"
 
 We are going to run the app to make sure everything works. For this we'll use **maven** first:
 
+## Using Intellij Idea and maven
+
 1. Open the `maven` panel (*on the to the right*).
 1. You'll see the name of your project.
 1. Now we'll use maven to build.
@@ -19,6 +21,15 @@ We are going to run the app to make sure everything works. For this we'll use **
 1. In the `maven` panel navigate to `Plugins / spring-boot` and double click on `spring-boot:run`
 1. This will open the `Run` panel, and you'll see lots of logs, and in 2-15 seconds your app will start, 
 depending on the machine you use.
+
+## Using command line and maven
+
+1. `cd` into the projects root folder, where the `pom.xml` file is residing
+1. Type `mvn clean package`
+1. Press `Enter`
+1. Once `BUILD SUCCESS`
+1. Type `mvn sring-boot:run`
+1. Press `Enter`
 
 ## What if build fails ?
 
