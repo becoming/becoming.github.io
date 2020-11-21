@@ -3,20 +3,17 @@ bookCollapseSection: true
 weight: 1
 title: "Season 1, From Lame to Fame"
 ---
-{{< hint info >}}
-This website is very much under construction. We have updates every 1-2 days!
-{{< /hint >}}
 # Season 1, From Lame to Fame
 
 ### Objectives
 
-Install the tools that are going to be used for creating applications with Java. Create your lame Java application.
+Install the tools that are going to be used for creating applications with Java. Create your initial Java application.
 
 ### Structure
 
 This part is organized in small and very precise steps, which you have to do, one after another. 
 
-You can stop and resume at any time. The lamer you are, the more stops you'll do.
+You can stop and resume at any time.
 
 ![](/lame.gif)
 

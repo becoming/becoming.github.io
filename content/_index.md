@@ -3,15 +3,17 @@ title: Introduction
 type: docs
 ---
 
-## Available curriculums
+## Available materials
 
- - [University]({{< relref "/docs/unviersity" >}})
-    - Courses that I'm giving at University de Lorraine, Nancy, France.
+ - [University]({{< relref "/docs/university" >}})
+    - Courses that [Rodislav](https://www.linkedin.com/in/rodislav/) is giving at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/)
  - [Java]({{< relref "/docs/java" >}})
     - the actual targeted version is **Java 11**
     - once next stable will be released we'll adapt the curriculum to that one.
  - [Talks](https://talks-becoming-tech.netlify.app)
- - [LuxembourgJS](https://luxemborgjs.com)
+ 
+## Meetups
+[LuxembourgJS](https://luxemborgjs.com)
     - The finest JavaScript User Group in Luxembourg.
     - We organize free meetups once a month, usually first Wednesday.
 

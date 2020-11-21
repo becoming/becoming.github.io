@@ -1,18 +1,14 @@
 ---
 weight: 2
 bookFlatSection: true
+bookCollapseSection: true
 title: "Java"
 ---
-{{< hint info >}}
-This website is very much under construction. We have updates every 1-2 days!
-{{< /hint >}}
 # Becoming a Java Developer
 
-> Hello, it'll be hard!
+Congrats dear, you just decided to start learning a programming language.
 
-Congrats junior, you just decided to stop being lame and start learning Java programming language.
-
-We'll focus mainly on **Java 11**
+We'll focus mainly on **Java 11** for now.
 
 Before you go further, you need to decide what **pill** you gonna take ?
 

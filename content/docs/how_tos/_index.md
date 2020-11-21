@@ -1,5 +1,7 @@
 ---
-weight: 2
+weight: 3
 bookFlatSection: true
-title: "Java"
+bookCollapseSection: true
+title: "How To"
 ---
+Txt
