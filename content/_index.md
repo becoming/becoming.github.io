@@ -2,28 +2,18 @@
 title: Introduction
 type: docs
 ---
-{{< hint info >}}
-This website is very much under construction. We have updates every 1-2 days!
-{{< /hint >}}
-
-{{< hint warning >}}
-Please use 2 monitors or a very large one - it'll easier to have the documentation always visible while you learn.
-{{< /hint >}}
-
-## Hello dear padavan
-
-This curriculum will teach you lots of smart things about informatics. You'll have the choice to... hold on, you'll have no choice, rather, you'll have to blindly learn the things in here. 
-
-You have no right unless you can pass the technical interview with me, the author of this curriculum.
-
-![](/sponge-bob-school.gif)
 
 ## Available curriculums
 
+ - [University]({{< relref "/docs/unviersity" >}})
+    - Courses that I'm giving at University de Lorraine, Nancy, France.
  - [Java]({{< relref "/docs/java" >}})
     - the actual targeted version is **Java 11**
     - once next stable will be released we'll adapt the curriculum to that one.
  - [Talks](https://talks-becoming-tech.netlify.app)
+ - [LuxembourgJS](https://luxemborgjs.com)
+    - The finest JavaScript User Group in Luxembourg.
+    - We organize free meetups once a month, usually first Wednesday.
 
 ## Source code of the site
 

@@ -1,5 +1,6 @@
 ---
-weight: 2
+weight: 1
 bookFlatSection: true
-title: "Java"
+title: "Advices"
 ---
+WIP
