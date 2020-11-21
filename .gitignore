@@ -1,3 +1,5 @@
+public/
+
 _text_to_speech/http-client.private.env.json
 _text_to_speech/key
 _text_to_speech/synth.mp3
