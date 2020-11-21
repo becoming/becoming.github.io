@@ -8,6 +8,10 @@ title: "Episode 6, Configure Intellij Idea"
 
 [Season 1 - From Lame to Fame](/docs/java/season_1/)
 
+{{< expand "Gear up - click here to smile" >}}
+![](/java/season1/gearup.gif) 
+{{< /expand >}}
+
 1. Run Intellij Idea
 1. Choose the theme
     1. Light - if your screen **does not have** anti-glare coating, and you work primarily in an environment with lots of small lights all over the place. I use Light since is easier on the eyes on a long run if combined with good ambient light and night-light mode.
@@ -16,8 +20,6 @@ title: "Episode 6, Configure Intellij Idea"
 1. _*Optional_: Create launcher script, sometimes is nice to open idea from command line. I'm not using this feature.
 
 Now we need to configure Plugins. Having only the needed plugins makes the editor less cluttered and faster to start and to run.
-
-![](/java/season1/gearup.gif) 
 
 1. Java Features
     1. Click on `Customize`
