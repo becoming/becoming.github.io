@@ -53,5 +53,5 @@ of the methods bellow.
 
 We'll use `maven` as "_technical project management tool_".
 
-- You can use the guide from My Java Curriculum: [](/docs/java/season_1/episode_3/)
+- You can use the guide from [My Java Curriculum](/docs/java/season_1/episode_3/)
 - Or use the [embedded maven installation from Intellij Idea](https://www.jetbrains.com/help/idea/maven-support.html)
