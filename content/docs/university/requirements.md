@@ -6,6 +6,11 @@ title: "Requirements"
 
 # Requirements
 
+## Knowledge
+
+- Understanding of the Java Programing Language
+- Understand of what an application is
+
 ## Hardware
 
 - Laptop or Desktop.
