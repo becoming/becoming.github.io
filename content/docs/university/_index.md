@@ -9,6 +9,10 @@ title: "University"
 Courses that [Rodislav](https://www.linkedin.com/in/rodislav/) is giving at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/)
 {{< /hint >}}
 
+## Requirements
+
+Before continuing the course please install the [requirements](./requirements/)
+
 ## Advices 
 
 Before you jump into learning, take some time to get some words of wisdom
