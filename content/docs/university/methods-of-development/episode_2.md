@@ -25,3 +25,27 @@ We'll start with https://start.spring.io
 - configuration processor
 - lombok
 {{< /expand >}}
+
+No we'll import the app and start adding features, one by one.
+
+{{< expand "Dependencies we'll start with" >}}
+- Get all entities
+- Add one entity
+- Get one by ID
+- Delete entity
+- Update entity 
+{{< /expand >}}
+
+During this time we'll touch lots of patterns. 
+Most of them are very basic, yet very powerful.
+
+{{< expand "Patterns, concepts and things" >}}
+- MVC
+- DI
+- Singleton
+- Proxy
+- SOLID
+- KISS
+- YAGNI
+- DRY
+{{< /expand >}}
