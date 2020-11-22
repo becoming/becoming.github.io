@@ -1,17 +1,16 @@
 ---
-weight: 1
+weight: 2
 title: "Advices"
 bookCollapseSection: true
 ---
-# Advices for getting into IT
-
+# _9ty something things_, every junior should know
 
 ## English
 
 ### Books
-- [Fundamentals of Software Architecture](https://www.thoughtworks.com/books/fundamentals-of-software-architecture)
-- [Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
 - [Effective Java](https://www.oracle.com/java/technologies/effectivejava.html)
+- [Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+- [Fundamentals of Software Architecture](https://www.thoughtworks.com/books/fundamentals-of-software-architecture)
 
 ### Advices from Luxembourg
 
@@ -43,3 +42,5 @@ bookCollapseSection: true
 > Notre but c’est de répondre au mieux au besoin du client si ce dernier est justifié et c’est pourquoi la question précédente nous permettra de mieux saisir de quoi il a besoin.
 > 
 > Ensuite il faut que cela en vaille la peine et aborder une approche MVP.
+>
+> [Julien Thaï, IT Architect at Banque Internationale à Luxembourg (BIL)](https://www.linkedin.com/in/julienthai/)
