@@ -34,6 +34,18 @@ bookCollapseSection: true
 > 
 > [Florian MICHEL, Software Developer chez Kyu Solutions](https://www.linkedin.com/in/florian-michel-9b992093/)
 
+> - Communication is essential, Written communication even more in times of All remote Teams . First point of contact is the CV as proof of written commnication skills
+>  
+> - Learn multiple programming languages to be able to judge what is good and less good in each one of them. Enables you to be involved in stach decisions more easily
+>  
+> - Develop a passion instead of certificates. Certificates help to get the first interview, but passion for the tasks and programming is what brings you the job you want
+> 
+> - Go beyond and be involved in the whole stack Lean deployments, server maintenance, JS bundling, Databases..
+>
+> Well hope you are doing well and good luck with all your adventures
+>
+> [Thierry Nicola, Software Developer at Doctena](https://www.linkedin.com/in/thierrynicola/) 
+
 ## Français
 ### Devenir Architect
 
