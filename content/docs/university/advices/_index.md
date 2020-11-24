@@ -44,7 +44,7 @@ bookCollapseSection: true
 >
 > Well hope you are doing well and good luck with all your adventures
 >
-> [Thierry Nicola, Software Developer at Doctena](https://www.linkedin.com/in/thierrynicola/) 
+> [Thierry Nicola, Software Developer at Doctena](http://twitter.com/littleiffel) 
 
 ## Français
 ### Devenir Architect
