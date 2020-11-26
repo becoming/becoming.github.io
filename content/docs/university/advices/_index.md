@@ -46,6 +46,10 @@ bookCollapseSection: true
 >
 > [Thierry Nicola, Software Developer at Doctena](http://twitter.com/littleiffel) 
 
+> - Do not fear to fail. FAIL is the First Attempt in Learning.
+>
+> [Michael Buente, Partner at QPark Consulting](https://www.linkedin.com/in/michael-buente-b71a306/) 
+
 ## Français
 ### Devenir Architect
 
