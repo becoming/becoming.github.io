@@ -62,7 +62,7 @@ Create one java application, examples of subjects:
 - Console menu, with 5 options.
 - A basic dictionary with 5 words.
 
-The app should be simple and doable in 10-15 minutes.
+The app should be simple and doable in 10 minutes.
 
 {{< expand "Things to do once the time is over" >}}
 1. How much people said they are ready ?
@@ -75,25 +75,20 @@ The app should be simple and doable in 10-15 minutes.
 - Is there some kind of documentation ?
 - Did somebody write tests ?
 - Who asked details on what needs to be done ?
-- Who used a framework ?
+- Who used a framework, or a build tool ?
 {{< /expand >}}
 
-{{< expand "Initial conclusion" >}}
-Now, who's to blame ? 
-- The one who wrote the apps.
-- The one who asked to develop the apps ?
-
-Pick one!
+{{< expand "The real world" >}}
+- It is hard to write nice code in tight deadline.
+- You really need tests, otherwise how can you prove your code is working ?
+  - by hand ? really ?!
+- You need to practice to write good code.
 {{< /expand >}}
 
 {{< expand "Actual conclusion / Wisdom" >}}
-__Make the wisdom understood again!__
-
-There's no right or wrong, as it was said during Covid19 Pandemic:
-
-> We are all part of the solution.
->
->[Luxembourger Government](https://today.rtl.lu/news/luxembourg/a/1585146.html)
-
-Experience is the key, see what gurus are telling ya, [click here](/docs/university/advices/)!
+- Do reviews of your old code.
+- Create precedents and document them.
+- Create or use cook books with ready to use recipes.
+- Avoid re-inventing wheels.
+  - Have some time ? Do some actual R&D
 {{< /expand >}}
