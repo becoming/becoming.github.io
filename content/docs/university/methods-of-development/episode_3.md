@@ -6,6 +6,8 @@ title: "Episode 3, Spring boot, Security"
 
 # Episode 3
 
+> https://gitlab.com/rodislav/miage2020/-/tree/feature/security
+
 Ok, we have now some routes, and we need to secure them. We'll do this time Basic Authentication.
 
 ## In Memory
