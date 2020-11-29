@@ -1,0 +1,41 @@
+@startuml
+
+actor dev as "Developer"
+
+component vcs as "Source Control\nGitHub, GitLab, Bitbucket"
+component build as "Build system\nJenkins, Bamboo, YouTrack,\nTravis, "
+component scan as "Code scan\nSonarqube, Code climate"
+component repo as "Repository\nNexusHQ, Artifactory, GitHub, GitLab"
+component deploy as "Deployment systems\nJenkins, XL Deploy, GitHub, GitLab"
+component docker as "Containers\nOn some server"
+component app_engine as "App Engines\nGoogle App Engine, Heroku"
+component kube as "Kubernetes\nManaged, As a service, etc."
+
+dev -down-> vcs: 1. manual push
+vcs -down-> build: 2. automatic trigger
+
+note left of vcs
+<b>Automatic</b>, VCS will call a hook from Build system
+<b>Pull</b>, Build system will poll the VCS once in a while
+end note
+
+note left of build
+Build the package
+Run tests
+Scan the source code
+end note
+
+
+build -down-> scan: 3. <b>automatic</b>\nsend the results of the scan
+build -down-> repo: 4. <b>automatic</b>\nupload the built package
+build -down-> deploy: 5. inform deployment tools of the status
+
+note left of deploy
+<b>Automatic</b> in dev or test envs
+<b>Manual</b> in Staging or Prod envs
+end note
+deploy -down-> docker
+deploy -down-> app_engine
+deploy -down-> kube
+
+@enduml

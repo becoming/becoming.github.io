@@ -21,6 +21,10 @@ CI/CD part can be done in Multiple Ways:
 - use jobs or pipelines
 - the pipelines can be visually created or scripted in *.yml (_most of the times_)
 
+## Big picture
+
+![](/university/CI_CD.png) 
+
 ## Jenkins in local docker image
 
 - https://github.com/jenkinsci/docker/blob/master/README.md
@@ -38,6 +42,8 @@ docker run -d -p 8080:8080 -p 50000:50000 -v /home/rodislav/.jenkins:/var/jenkin
 En français: https://www.youtube.com/watch?v=WTJNKAcgihE
 
 ## Travis + GitHub
+
+https://github.com/smart-home-oss/parent/blob/master/docs/TRAVIS.md
 
 - travis account
 - link repositories
