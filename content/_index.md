@@ -2,14 +2,28 @@
 title: Introduction
 type: docs
 ---
+> __Note__: All the content in this website are my own, and I am the only one responsible for it.
+> In some articles I use references from other authors - in those cases you'll find the link to the original material.
+> This website is not linked in any way to the company I'm working for.
+> 
+> __If you are an author__ of a referenced source and do not agree with your material being referenced here, 
+> please get in touch with me via channels described bellow.
+
+## Author / Contact
+
+Hello, I'm [Rodislav](https://www.linkedin.com/in/rodislav/), the author of this website.
+
+__If you feel like contributing__ to it, get in touch with me via [LinkedIn](https://www.linkedin.com/in/rodislav/) 
+or fill a request in [GitHub](https://github.com/becoming/becoming.github.io/issues). 
 
 ## Available materials
 
  - [University]({{< relref "/docs/university" >}})
-    - Courses that [Rodislav](https://www.linkedin.com/in/rodislav/) is giving at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/)
+    - Support for the courses given by [Rodislav](https://www.linkedin.com/in/rodislav/) at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/).
  - [Java]({{< relref "/docs/java" >}})
-    - the actual targeted version is **Java 11**
-    - once next stable will be released we'll adapt the curriculum to that one.
+    - Course to learn how to do app in Java.
+    - The actual targeted version is **Java 11**.
+        - _Once next stable will be released we'll adapt the curriculum to that one._
  - [Talks](https://talks-becoming-tech.netlify.app)
  
 ## Meetups

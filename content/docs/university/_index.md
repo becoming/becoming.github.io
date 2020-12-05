@@ -6,7 +6,7 @@ title: "University"
 ---
 # Learn things like a student
 {{< hint info >}}
-Courses that [Rodislav](https://www.linkedin.com/in/rodislav/) is giving at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/)
+Support for the courses given by [Rodislav](https://www.linkedin.com/in/rodislav/) at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/).
 {{< /hint >}}
 
 ## Requirements

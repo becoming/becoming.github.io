@@ -16,3 +16,5 @@ The most important thing though - we'll see whom to blame!
 
 - [Episode 1, Introduction exercise](./episode_1)
 - [Episode 2, Spring boot](./episode_2)
+- [Episode 3, Spring security](./episode_3)
+- [Episode 4, CI/CD](./episode_4)
