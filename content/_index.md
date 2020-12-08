@@ -24,6 +24,8 @@ or fill a request in [GitHub](https://github.com/becoming/becoming.github.io/iss
     - Course to learn how to do app in Java.
     - The actual targeted version is **Java 11**.
         - _Once next stable will be released we'll adapt the curriculum to that one._
+    - ![](/java-mavrick-standard.jpeg)
+        - https://twitter.com/iamamavrick/status/1336221126565904387
  - [Talks](https://talks-becoming-tech.netlify.app)
  
 ## Meetups
