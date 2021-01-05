@@ -31,16 +31,27 @@ attention of what class you change as it might impact multiple features at once.
 
 > The bigger the monolith is - the harder is to maintain it.
 
-Examples:
+### Use case
+
+We have one monolith for all the use cases:
 - manage the users.
 - __AND__ their image galleries.
 - __AND__ the uploaded files.
 - __AND__ a basket for this e-commerce website that sells images (_like https://www.shutterstock.com_).
 
+### Example
+
 Here's a list of commonly used packages and examples of files names inside:
 
 - __user__ - UserController, UserService, UserRepository, UserEntity.java, AddressEntity, CountryEntity, AddressValidationHelper
 - __card__ - CardController, CardService, CardRepository, CardEntity
+
+### Special cases
+
+Here's a visual example:
+
+![](file-tree.png)
+
 
 If one of the feature packages becomes large, you can always start using the layered based architecture within the feature package.
 At some point you'll start to think that it can be a good idea to extract this particular feature into a dedicated microservice.
@@ -51,9 +62,7 @@ Generally speaking it is a good idea to extract this to a external library. Or c
 
 - __core__ - StringHelper
 
-Here's a visual example:
-
-![](https://github.com/becoming/code-architecture/blob/master/layer-based-architecture/file-tree.png) 
+![](https://github.com/becoming/code-architecture/blob/master/feature-based-architecture/file-tree.png) 
 
 ## Layer based
 
@@ -62,17 +71,21 @@ In a layer based architecture you group files in __packages__ by their __TECHNIC
 This can be useful when you are building __microservices__.
 One microservice is supposed to do one job in one single domain.
 
-Examples:
+### Use cases
+
+We have multiple microservices, one per use case:
 - manage the users.
-    - _CRUD for a list of users._
+  - _CRUD for a list of users._
 - image gallery.
-    - _manages the albums and their information._
-    - _have references to the actual files from another microservice._
+  - _manages the albums and their information._
+  - _have references to the actual files from another microservice._
 - file service.
-    - _CRUD for a list of files and their metadata._
+  - _CRUD for a list of files and their metadata._
 - basket for a e-commerce website.
 
 Therefore, we are expected to have only one feature that is to be covered by the code of the µs in question.
+
+### Example
 
 Here's a list of commonly used packages and examples of files names inside:
 
