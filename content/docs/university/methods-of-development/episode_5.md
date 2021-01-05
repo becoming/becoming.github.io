@@ -95,3 +95,11 @@ Here's a list of commonly used packages and examples of files names inside:
 Here's a visual example:
 
 ![](https://raw.githubusercontent.com/becoming/code-architecture/master/layer-based-architecture/file-tree.png)
+
+## ArchUnit - Test the architecture
+
+In case you plan to unit test the architecture or the applications you work on, 
+one the greatest solutions is : https://www.archunit.org/.
+
+It'll help you easily describe tests who'll check that all the naming conventions are in place.
+There are no useless packages, badly named classes, etc.
