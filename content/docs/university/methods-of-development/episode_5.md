@@ -46,12 +46,11 @@ Here's a list of commonly used packages and examples of files names inside:
 - __user__ - UserController, UserService, UserRepository, UserEntity.java, AddressEntity, CountryEntity, AddressValidationHelper
 - __card__ - CardController, CardService, CardRepository, CardEntity
 
-### Special cases
-
 Here's a visual example:
 
-![](file-tree.png)
+![](https://raw.githubusercontent.com/becoming/code-architecture/master/feature-based-architecture/file-tree.png)
 
+### Special cases
 
 If one of the feature packages becomes large, you can always start using the layered based architecture within the feature package.
 At some point you'll start to think that it can be a good idea to extract this particular feature into a dedicated microservice.
@@ -61,8 +60,6 @@ In some cases you might need some kind of __core__ package that hase the common 
 Generally speaking it is a good idea to extract this to a external library. Or create the needed function next to the actual usage.
 
 - __core__ - StringHelper
-
-![](https://github.com/becoming/code-architecture/blob/master/feature-based-architecture/file-tree.png) 
 
 ## Layer based
 
