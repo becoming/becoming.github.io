@@ -1,5 +1,8 @@
 ---
-weight: 5 bookFlatSection: true bookCollapseSection: true title: "Modern Spring Boot"
+weight: 6
+bookFlatSection: true 
+bookCollapseSection: true 
+title: "Modern Spring Boot"
 ---
 
 # Modern Spring Boot
