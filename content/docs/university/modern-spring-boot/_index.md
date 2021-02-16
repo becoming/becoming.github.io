@@ -26,6 +26,7 @@ weight: 5 bookFlatSection: true bookCollapseSection: true title: "Modern Spring 
     - spring boot plugin
 - `/application.properties`
     - `/application-local.properties`
+    - maven setting to exclude the `-local.properties`
 - Configuration
     - a dedicated package with all the needed annotations there
 - Properties
