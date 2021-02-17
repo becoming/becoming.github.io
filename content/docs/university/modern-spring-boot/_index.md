@@ -1,6 +1,5 @@
 ---
 weight: 6
-bookFlatSection: true 
 bookCollapseSection: true 
 title: "Modern Spring Boot"
 ---

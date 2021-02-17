@@ -1,5 +1,5 @@
 ---
-weight: 7
+weight: 4
 bookFlatSection: true
 bookCollapseSection: true
 title: "Ways to express yourself"
