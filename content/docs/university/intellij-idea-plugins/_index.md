@@ -1,6 +1,5 @@
 ---
-weight: 6 
-bookFlatSection: true 
+weight: 7 
 bookCollapseSection: true 
 title: "Intellij Idea Plugins"
 ---
