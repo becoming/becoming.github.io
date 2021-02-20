@@ -9,10 +9,10 @@ title: "Episode 2, Spring boot"
 This time we'll start writing actual apps. We need to pick one subject and do the app for it.
 
 Every year we pick something different:
-- 2017: dating site
-- 2018: gaming site
-- 2019: pub management app
-- 2020: ?
+- 2017: Dating site
+- 2018: Gaming site
+- 2019: Pub Management
+- 2020: Click and collect
 
 We'll start with https://start.spring.io
 
