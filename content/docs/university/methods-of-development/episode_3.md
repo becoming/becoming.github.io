@@ -34,7 +34,7 @@ We will secure only the APIs, we'll not create a html page for that.
 If you want, feel free to do the guide as described as exercise for you.
 
 ### Code Demo
-Here's the example of this repository: [Feature/security basic in memory](https://gitlab.com/rodislav/miage2020/-/merge_requests/2/diffs)
+Here's the example of this repository: [basic authentication in memory](https://github.com/becoming/click-and-collect/pull/1/files)
 
 ### Demo's bullet points
 The central parts of this exercise are:
@@ -59,7 +59,7 @@ The central parts of this exercise are:
 Let's go a bit more real this time. We'll connect our authentication logic to users located in your database.
 
 ### Code Demo
-Here's the example of this repository: [Feature/security basic in db](https://gitlab.com/rodislav/miage2020/-/merge_requests/1/diffs)
+Here's the example of this repository: [basic authentication in db and in memory](https://github.com/becoming/click-and-collect/pull/2)
 
 ### Demo's bullet points
 The central parts are the ones described above plus a bunch of new ones:

@@ -25,8 +25,8 @@ We'll start with https://start.spring.io
 - lombok
 - liquibase
   - You need to setup liquibase to avoid it failing: 
-  - [application.properties](https://gitlab.com/rodislav/miage2020/-/blob/master/click-and-collect/src/main/resources/application.properties#L1)
-  - [initial changelog files](https://gitlab.com/rodislav/miage2020/-/tree/master/click-and-collect/src/main/resources/db/changelog)
+  - [application.properties](https://github.com/becoming/click-and-collect/blob/feature/no-basic-authentication/src/main/resources/application.properties)
+  - [initial changelog files](https://github.com/becoming/click-and-collect/tree/feature/no-basic-authentication/src/main/resources/db/changelog)
 {{< /expand >}}
 
 No we'll import the app and start adding features, one by one.
