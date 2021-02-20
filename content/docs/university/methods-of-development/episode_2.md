@@ -24,7 +24,7 @@ We'll start with https://start.spring.io
 - configuration processor
 - lombok
 - liquibase
-  - You need to setup lombok to avoid it failing: 
+  - You need to setup liquibase to avoid it failing: 
   - [application.properties](https://gitlab.com/rodislav/miage2020/-/blob/master/click-and-collect/src/main/resources/application.properties#L1)
   - [initial changelog files](https://gitlab.com/rodislav/miage2020/-/tree/master/click-and-collect/src/main/resources/db/changelog)
 {{< /expand >}}
