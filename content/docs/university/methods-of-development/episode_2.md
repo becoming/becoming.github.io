@@ -12,7 +12,7 @@ Every year we pick something different:
 - 2017: Spring Boot, Dropwizard, Vert.X - [File Service](https://github.com/becoming/spring-boot-vertx-dropwizard)
 - 2018: Spring Boot - Gaming site
 - 2019: Spring Boot, Quarkus - [Pub Management](https://github.com/becoming/pub-management)
-- 2020: Spring Boot - [Click and collect](https://github.com/becoming/click-and-collect/tree/main/click-and-collect)
+- 2020: Spring Boot - [Click and collect](https://github.com/becoming/click-and-collect)
 
 We'll start with https://start.spring.io
 
