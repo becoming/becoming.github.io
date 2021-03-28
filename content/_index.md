@@ -16,45 +16,13 @@ Hello, I'm [Rodislav](https://www.linkedin.com/in/rodislav/), the author of this
 __If you feel like contributing__ to it, get in touch with me via [LinkedIn](https://www.linkedin.com/in/rodislav/) 
 or fill a request in [GitHub](https://github.com/becoming/becoming.github.io/issues). 
 
+I speak English, French, Romanian, Russian.
+
 ## Available materials
 
  - [University]({{< relref "/docs/university" >}})
     - Support for the courses given by [Rodislav](https://www.linkedin.com/in/rodislav/) at [University of Lorraine](https://www.univ-lorraine.fr/) / [IDMC](https://idmc.univ-lorraine.fr/).
  - [Java]({{< relref "/docs/java" >}})
-    - You want to learn Java, here's where to start.
-      {{< expand "Free resources" >}}
-       - __For begginers__
-       - https://www.youtube.com/watch?v=vtPkZShrvXQ
-       - https://www.youtube.com/watch?v=9SGDpanrc8U
-   
-       - __By Josh Long__
-       - https://www.youtube.com/watch?v=_m4xpHUf55E
-       - https://www.youtube.com/watch?v=RrgL7_AW6S4
-       - https://www.youtube.com/watch?v=PsNNGuLi0ns
-   
-       - __How to use Intellij Idea - playlist__
-       - https://www.youtube.com/watch?v=-6D5-xEaYig&list=PLQ176FUIyIUbDCJXvNZ-nf0PZN22HANpp
-   
-       - __Thorben Janssen - Hibernate__
-       - https://www.youtube.com/channel/UCYeDPubBiFCZXIOgGYoyADw
-   
-       - __Vlad Mihlacea__
-       - https://www.youtube.com/user/vladmihalcea
-   
-       - __Jakob Jenkov__
-       - http://tutorials.jenkov.com/java-collections/index.html
-      {{< /expand >}}
-
-      {{< expand "Commercial" >}}
-       - __Baeldung - REST with Spring__
-       - https://www.baeldung.com/rest-with-spring-course
-   
-       - __Vlad Mihalcea - Java Persistence__
-       - https://vladmihalcea.com/courses/
-   
-       - __JetBrains Academy - cancel any time, discounts possible__
-       - https://www.jetbrains.com/fr-fr/academy/
-      {{< /expand >}}
 
 ## Meetups I contribute to
 [LuxembourgJS](https://luxemborgjs.com)
