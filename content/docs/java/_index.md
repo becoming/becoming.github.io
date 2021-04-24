@@ -44,3 +44,9 @@ Feeling interested, ping me via one of these ways : [Contact section](/#author--
 ## Databases access - Vlad Mihlacea
 - [YouTube Channel, __free__](https://www.youtube.com/user/vladmihalcea)
 - [Official courses, _commercial_](https://vladmihalcea.com/courses/)
+
+## Going further
+
+- [liveproject - manning, _commercial_](https://liveproject.manning.com/)
+- [Grokking the Spring Boot Interview](https://gumroad.com/l/hrUXKY)
+- [3 Ways to Learn Spring Core, Spring MVC, Spring Security, and Spring Boot Framework](https://javarevisited.blogspot.com/2018/01/how-to-learn-spring-core-spring-mvc-boot-security-framework.html#.YILhuPnb9fY.twitter)
